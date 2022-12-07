@@ -1078,7 +1078,7 @@ asmlinkage __visible void __init __no_sanitize_address start_kernel(void)
 	/*
 	 * This needs to be called before any devices perform DMA
 	 * operations that might use the SWIOTLB bounce buffers. It will
-	 * mark the bounce buffers as decrypted so that their usage will
+	 * mark the bounce buffers as decrypted so that their usage will 
 	 * not cause "plain-text" data to be decrypted when accessed.
 	 */
 	mem_encrypt_init();
